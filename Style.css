@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #abcdef;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 40vh 40vh;
+    grid-template-areas: 
+        'temperature wind_speed'
+        'is_day precipitation';
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    background-image: url(/погода/фон1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 200px;
+}
+
+.wind_speed {
+    display: flex;
+    justify-content: center;
+    background-image: url(/погода/фон2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 200px;
+}
+
+.is_day {
+    display: flex;
+    justify-content: center;
+    background-image: url(/погода/фон3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 200px;
+}
+
+.precipitation {
+    display: flex;
+    justify-content: center;
+    background-image: url(/погода/фон4.jpg);
+    background-size: 300px 200px;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
